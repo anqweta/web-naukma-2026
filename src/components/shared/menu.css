@@ -1,0 +1,41 @@
+.btn-orange, ul {
+    color: #f96767;
+    font-size: 18px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+}
+li {
+    cursor: pointer;
+}
+li:not(:first-child) {
+    margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+.btn-orange {
+    padding: 10px 20px;
+    border-color: #f96767;
+    background-color: white;
+    transition: 0.4s;
+}
+.btn-orange:hover {
+    background-color: #f96767;
+    color: white;
+}

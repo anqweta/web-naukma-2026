@@ -1,0 +1,27 @@
+.modal-teacher {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-gray {
+    width: 95%;
+    background: #444;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.close-btn { background: none; border: none; color: white; cursor: pointer; }
+form { display: flex; flex-direction: column; gap: 10px; }
+.form-row { display: flex; gap: 10px; }
+.form-row label { flex: 1; display: flex; flex-direction: column; }
+label { display: flex; flex-direction: column; }
+.add-btn { background: white; color: #f96767; border: 1px solid #f96767; padding: 10px; cursor: pointer; }
